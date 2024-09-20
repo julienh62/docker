@@ -1,0 +1,277 @@
+2024/09/13 09:32:34 [emerg] 1#1: open() "/etc/nginx/snippets/fastcgi-php.conf" failed (2: No such file or directory) in /etc/nginx/conf.d/judit.conf:13
+2024/09/13 09:38:33 [emerg] 1#1: open() "/etc/nginx/snippets/fastcgi-php.conf" failed (2: No such file or directory) in /etc/nginx/conf.d/judit.conf:13
+2024/09/13 09:41:44 [emerg] 1#1: open() "/etc/nginx/snippets/fastcgi-php.conf" failed (2: No such file or directory) in /etc/nginx/conf.d/default.conf:13
+2024/09/13 09:42:22 [emerg] 1#1: open() "/etc/nginx/snippets/fastcgi-php.conf" failed (2: No such file or directory) in /etc/nginx/conf.d/default.conf:13
+2024/09/13 09:43:30 [emerg] 1#1: open() "/etc/nginx/snippets/fastcgi-php.conf" failed (2: No such file or directory) in /etc/nginx/conf.d/default.conf:13
+2024/09/13 09:59:12 [notice] 1#1: using the "epoll" event method
+2024/09/13 09:59:12 [notice] 1#1: nginx/1.27.1
+2024/09/13 09:59:12 [notice] 1#1: built by gcc 12.2.0 (Debian 12.2.0-14) 
+2024/09/13 09:59:12 [notice] 1#1: OS: Linux 5.15.0-119-generic
+2024/09/13 09:59:12 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2024/09/13 09:59:12 [notice] 1#1: start worker processes
+2024/09/13 09:59:12 [notice] 1#1: start worker process 28
+2024/09/13 09:59:12 [notice] 1#1: start worker process 29
+2024/09/13 10:00:15 [error] 29#29: *1 directory index of "/var/www/html/" is forbidden, client: 217.160.234.181, server: judit.fr, request: "GET / HTTP/1.1", host: "judit.fr"
+2024/09/13 10:07:07 [notice] 1#1: signal 3 (SIGQUIT) received, shutting down
+2024/09/13 10:07:07 [notice] 28#28: gracefully shutting down
+2024/09/13 10:07:07 [notice] 28#28: exiting
+2024/09/13 10:07:07 [notice] 28#28: exit
+2024/09/13 10:07:07 [notice] 29#29: gracefully shutting down
+2024/09/13 10:07:07 [notice] 29#29: exiting
+2024/09/13 10:07:07 [notice] 29#29: exit
+2024/09/13 10:07:07 [notice] 1#1: signal 17 (SIGCHLD) received from 29
+2024/09/13 10:07:07 [notice] 1#1: worker process 29 exited with code 0
+2024/09/13 10:07:07 [notice] 1#1: signal 29 (SIGIO) received
+2024/09/13 10:07:07 [notice] 1#1: signal 17 (SIGCHLD) received from 28
+2024/09/13 10:07:07 [notice] 1#1: worker process 28 exited with code 0
+2024/09/13 10:07:07 [notice] 1#1: exit
+2024/09/13 10:07:18 [emerg] 1#1: "fastcgi_pass" directive is duplicate in /etc/nginx/conf.d/default.conf:14
+2024/09/13 10:16:43 [notice] 1#1: using the "epoll" event method
+2024/09/13 10:16:43 [notice] 1#1: nginx/1.27.1
+2024/09/13 10:16:43 [notice] 1#1: built by gcc 12.2.0 (Debian 12.2.0-14) 
+2024/09/13 10:16:43 [notice] 1#1: OS: Linux 5.15.0-119-generic
+2024/09/13 10:16:43 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2024/09/13 10:16:43 [notice] 1#1: start worker processes
+2024/09/13 10:16:43 [notice] 1#1: start worker process 28
+2024/09/13 10:16:43 [notice] 1#1: start worker process 29
+2024/09/13 10:18:30 [error] 29#29: *1 directory index of "/var/www/html/" is forbidden, client: 217.160.234.181, server: judit.fr, request: "GET / HTTP/1.1", host: "judit.fr"
+2024/09/13 10:22:48 [error] 28#28: *2 directory index of "/var/www/html/" is forbidden, client: 185.191.126.213, server: judit.fr, request: "GET / HTTP/1.1", host: "217.160.234.181:80"
+2024/09/13 10:28:53 [notice] 1#1: signal 3 (SIGQUIT) received, shutting down
+2024/09/13 10:28:53 [notice] 28#28: gracefully shutting down
+2024/09/13 10:28:53 [notice] 29#29: gracefully shutting down
+2024/09/13 10:28:53 [notice] 28#28: exiting
+2024/09/13 10:28:53 [notice] 29#29: exiting
+2024/09/13 10:28:53 [notice] 28#28: exit
+2024/09/13 10:28:53 [notice] 29#29: exit
+2024/09/13 10:28:53 [notice] 1#1: signal 17 (SIGCHLD) received from 28
+2024/09/13 10:28:53 [notice] 1#1: worker process 28 exited with code 0
+2024/09/13 10:28:53 [notice] 1#1: signal 29 (SIGIO) received
+2024/09/13 10:28:53 [notice] 1#1: signal 17 (SIGCHLD) received from 29
+2024/09/13 10:28:53 [notice] 1#1: worker process 29 exited with code 0
+2024/09/13 10:28:53 [notice] 1#1: exit
+2024/09/13 10:28:54 [notice] 1#1: using the "epoll" event method
+2024/09/13 10:28:54 [notice] 1#1: nginx/1.27.1
+2024/09/13 10:28:54 [notice] 1#1: built by gcc 12.2.0 (Debian 12.2.0-14) 
+2024/09/13 10:28:54 [notice] 1#1: OS: Linux 5.15.0-119-generic
+2024/09/13 10:28:54 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2024/09/13 10:28:54 [notice] 1#1: start worker processes
+2024/09/13 10:28:54 [notice] 1#1: start worker process 27
+2024/09/13 10:28:54 [notice] 1#1: start worker process 28
+2024/09/13 11:11:42 [notice] 1#1: signal 3 (SIGQUIT) received, shutting down
+2024/09/13 11:11:42 [notice] 27#27: gracefully shutting down
+2024/09/13 11:11:42 [notice] 27#27: exiting
+2024/09/13 11:11:42 [notice] 27#27: exit
+2024/09/13 11:11:42 [notice] 28#28: gracefully shutting down
+2024/09/13 11:11:42 [notice] 28#28: exiting
+2024/09/13 11:11:42 [notice] 28#28: exit
+2024/09/13 11:11:42 [notice] 1#1: signal 17 (SIGCHLD) received from 28
+2024/09/13 11:11:42 [notice] 1#1: worker process 27 exited with code 0
+2024/09/13 11:11:42 [notice] 1#1: worker process 28 exited with code 0
+2024/09/13 11:11:42 [notice] 1#1: exit
+2024/09/13 11:12:38 [notice] 1#1: using the "epoll" event method
+2024/09/13 11:12:38 [notice] 1#1: nginx/1.27.1
+2024/09/13 11:12:38 [notice] 1#1: built by gcc 12.2.0 (Debian 12.2.0-14) 
+2024/09/13 11:12:38 [notice] 1#1: OS: Linux 5.15.0-119-generic
+2024/09/13 11:12:38 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2024/09/13 11:12:38 [notice] 1#1: start worker processes
+2024/09/13 11:12:38 [notice] 1#1: start worker process 28
+2024/09/13 11:12:38 [notice] 1#1: start worker process 29
+2024/09/15 00:17:18 [error] 28#28: *574 access forbidden by rule, client: 141.98.11.114, server: judit.fr, request: "GET /.hta HTTP/1.1", host: "217.160.234.181"
+2024/09/15 07:31:30 [error] 29#29: *6867 access forbidden by rule, client: 141.98.11.114, server: judit.fr, request: "GET /.hta HTTP/1.1", host: "217.160.234.181"
+2024/09/15 10:14:47 [error] 28#28: *13139 client intended to send too large body: 10485761 bytes, client: 185.91.69.5, server: judit.fr, request: "POST / HTTP/1.1", host: "217.160.234.181"
+2024/09/20 13:48:26 [error] 29#29: *124495 directory index of "/var/www/html/" is forbidden, client: 82.65.31.116, server: judit.fr, request: "GET / HTTP/1.1", host: "judit.fr"
+2024/09/20 13:50:02 [error] 29#29: *124497 directory index of "/var/www/html/" is forbidden, client: 82.65.31.116, server: judit.fr, request: "GET / HTTP/1.1", host: "judit.fr"
+2024/09/20 13:50:06 [error] 29#29: *124497 directory index of "/var/www/html/" is forbidden, client: 82.65.31.116, server: judit.fr, request: "GET / HTTP/1.1", host: "judit.fr"
+2024/09/20 13:54:30 [error] 29#29: *124502 directory index of "/var/www/html/" is forbidden, client: 82.65.31.116, server: judit.fr, request: "GET / HTTP/1.1", host: "judit.fr"
+2024/09/20 13:54:30 [error] 29#29: *124503 directory index of "/var/www/html/" is forbidden, client: 82.65.31.116, server: judit.fr, request: "GET / HTTP/1.1", host: "judit.fr"
+2024/09/20 13:54:30 [error] 29#29: *124504 directory index of "/var/www/html/" is forbidden, client: 82.65.31.116, server: judit.fr, request: "GET / HTTP/1.1", host: "judit.fr"
+2024/09/20 13:54:30 [error] 28#28: *124505 directory index of "/var/www/html/" is forbidden, client: 82.65.31.116, server: judit.fr, request: "GET / HTTP/1.1", host: "judit.fr"
+2024/09/20 13:54:30 [error] 28#28: *124506 directory index of "/var/www/html/" is forbidden, client: 82.65.31.116, server: judit.fr, request: "GET / HTTP/1.1", host: "judit.fr"
+2024/09/20 14:11:23 [error] 28#28: *124513 directory index of "/var/www/html/" is forbidden, client: 82.65.31.116, server: judit.fr, request: "GET / HTTP/1.1", host: "judit.fr"
+2024/09/20 14:11:25 [error] 28#28: *124514 directory index of "/var/www/html/" is forbidden, client: 82.65.31.116, server: judit.fr, request: "GET / HTTP/1.1", host: "judit.fr"
+2024/09/20 14:11:25 [error] 28#28: *124515 directory index of "/var/www/html/" is forbidden, client: 82.65.31.116, server: judit.fr, request: "GET / HTTP/1.1", host: "judit.fr"
+2024/09/20 14:11:25 [error] 28#28: *124516 directory index of "/var/www/html/" is forbidden, client: 82.65.31.116, server: judit.fr, request: "GET / HTTP/1.1", host: "judit.fr"
+2024/09/20 14:19:37 [notice] 1#1: signal 3 (SIGQUIT) received, shutting down
+2024/09/20 14:19:37 [notice] 28#28: gracefully shutting down
+2024/09/20 14:19:37 [notice] 28#28: exiting
+2024/09/20 14:19:37 [notice] 28#28: exit
+2024/09/20 14:19:37 [notice] 29#29: gracefully shutting down
+2024/09/20 14:19:37 [notice] 29#29: exiting
+2024/09/20 14:19:37 [notice] 29#29: exit
+2024/09/20 14:19:37 [notice] 1#1: signal 17 (SIGCHLD) received from 29
+2024/09/20 14:19:37 [notice] 1#1: worker process 28 exited with code 0
+2024/09/20 14:19:37 [notice] 1#1: worker process 29 exited with code 0
+2024/09/20 14:19:37 [notice] 1#1: exit
+2024/09/20 14:19:38 [notice] 1#1: using the "epoll" event method
+2024/09/20 14:19:38 [notice] 1#1: nginx/1.27.1
+2024/09/20 14:19:38 [notice] 1#1: built by gcc 12.2.0 (Debian 12.2.0-14) 
+2024/09/20 14:19:38 [notice] 1#1: OS: Linux 5.15.0-119-generic
+2024/09/20 14:19:38 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2024/09/20 14:19:38 [notice] 1#1: start worker processes
+2024/09/20 14:19:38 [notice] 1#1: start worker process 28
+2024/09/20 14:19:38 [notice] 1#1: start worker process 29
+2024/09/20 14:38:36 [notice] 1#1: signal 3 (SIGQUIT) received, shutting down
+2024/09/20 14:38:36 [notice] 29#29: gracefully shutting down
+2024/09/20 14:38:36 [notice] 29#29: exiting
+2024/09/20 14:38:36 [notice] 29#29: exit
+2024/09/20 14:38:36 [notice] 28#28: gracefully shutting down
+2024/09/20 14:38:36 [notice] 28#28: exiting
+2024/09/20 14:38:36 [notice] 28#28: exit
+2024/09/20 14:38:36 [notice] 1#1: signal 17 (SIGCHLD) received from 29
+2024/09/20 14:38:36 [notice] 1#1: worker process 29 exited with code 0
+2024/09/20 14:38:36 [notice] 1#1: signal 17 (SIGCHLD) received from 28
+2024/09/20 14:38:36 [notice] 1#1: worker process 28 exited with code 0
+2024/09/20 14:38:36 [notice] 1#1: exit
+2024/09/20 14:38:37 [notice] 1#1: using the "epoll" event method
+2024/09/20 14:38:37 [notice] 1#1: nginx/1.27.1
+2024/09/20 14:38:37 [notice] 1#1: built by gcc 12.2.0 (Debian 12.2.0-14) 
+2024/09/20 14:38:37 [notice] 1#1: OS: Linux 5.15.0-119-generic
+2024/09/20 14:38:37 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2024/09/20 14:38:37 [notice] 1#1: start worker processes
+2024/09/20 14:38:37 [notice] 1#1: start worker process 27
+2024/09/20 14:38:37 [notice] 1#1: start worker process 28
+2024/09/20 14:46:31 [notice] 1#1: signal 3 (SIGQUIT) received, shutting down
+2024/09/20 14:46:31 [notice] 27#27: gracefully shutting down
+2024/09/20 14:46:31 [notice] 28#28: gracefully shutting down
+2024/09/20 14:46:31 [notice] 27#27: exiting
+2024/09/20 14:46:31 [notice] 28#28: exiting
+2024/09/20 14:46:31 [notice] 28#28: exit
+2024/09/20 14:46:31 [notice] 27#27: exit
+2024/09/20 14:46:31 [notice] 1#1: signal 17 (SIGCHLD) received from 27
+2024/09/20 14:46:31 [notice] 1#1: worker process 27 exited with code 0
+2024/09/20 14:46:31 [notice] 1#1: worker process 28 exited with code 0
+2024/09/20 14:46:31 [notice] 1#1: exit
+2024/09/20 14:46:32 [notice] 1#1: using the "epoll" event method
+2024/09/20 14:46:32 [notice] 1#1: nginx/1.27.1
+2024/09/20 14:46:32 [notice] 1#1: built by gcc 12.2.0 (Debian 12.2.0-14) 
+2024/09/20 14:46:32 [notice] 1#1: OS: Linux 5.15.0-119-generic
+2024/09/20 14:46:32 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2024/09/20 14:46:32 [notice] 1#1: start worker processes
+2024/09/20 14:46:32 [notice] 1#1: start worker process 28
+2024/09/20 14:46:32 [notice] 1#1: start worker process 29
+2024/09/20 14:46:35 [error] 29#29: *1 directory index of "/var/www/html/" is forbidden, client: 82.65.31.116, server: judit.fr, request: "GET / HTTP/1.1", host: "judit.fr"
+2024/09/20 14:46:37 [error] 28#28: *2 directory index of "/var/www/html/" is forbidden, client: 82.65.31.116, server: judit.fr, request: "GET / HTTP/1.1", host: "judit.fr"
+2024/09/20 14:46:37 [error] 29#29: *3 directory index of "/var/www/html/" is forbidden, client: 82.65.31.116, server: judit.fr, request: "GET / HTTP/1.1", host: "judit.fr"
+2024/09/20 14:46:37 [error] 29#29: *4 directory index of "/var/www/html/" is forbidden, client: 82.65.31.116, server: judit.fr, request: "GET / HTTP/1.1", host: "judit.fr"
+2024/09/20 14:46:37 [error] 29#29: *5 directory index of "/var/www/html/" is forbidden, client: 82.65.31.116, server: judit.fr, request: "GET / HTTP/1.1", host: "judit.fr"
+2024/09/20 14:46:37 [error] 29#29: *6 directory index of "/var/www/html/" is forbidden, client: 82.65.31.116, server: judit.fr, request: "GET / HTTP/1.1", host: "judit.fr"
+2024/09/20 14:46:38 [error] 29#29: *7 directory index of "/var/www/html/" is forbidden, client: 82.65.31.116, server: judit.fr, request: "GET / HTTP/1.1", host: "judit.fr"
+2024/09/20 14:46:38 [error] 29#29: *8 directory index of "/var/www/html/" is forbidden, client: 82.65.31.116, server: judit.fr, request: "GET / HTTP/1.1", host: "judit.fr"
+2024/09/20 14:46:38 [error] 29#29: *9 directory index of "/var/www/html/" is forbidden, client: 82.65.31.116, server: judit.fr, request: "GET / HTTP/1.1", host: "judit.fr"
+2024/09/20 14:46:38 [error] 29#29: *10 directory index of "/var/www/html/" is forbidden, client: 82.65.31.116, server: judit.fr, request: "GET / HTTP/1.1", host: "judit.fr"
+2024/09/20 14:46:38 [error] 29#29: *11 directory index of "/var/www/html/" is forbidden, client: 82.65.31.116, server: judit.fr, request: "GET / HTTP/1.1", host: "judit.fr"
+2024/09/20 14:46:38 [error] 29#29: *12 directory index of "/var/www/html/" is forbidden, client: 82.65.31.116, server: judit.fr, request: "GET / HTTP/1.1", host: "judit.fr"
+2024/09/20 14:46:41 [error] 29#29: *12 directory index of "/var/www/html/" is forbidden, client: 82.65.31.116, server: judit.fr, request: "GET / HTTP/1.1", host: "judit.fr"
+2024/09/20 14:46:48 [error] 29#29: *13 directory index of "/var/www/html/" is forbidden, client: 82.65.31.116, server: judit.fr, request: "GET / HTTP/1.1", host: "judit.fr"
+2024/09/20 14:46:49 [error] 29#29: *13 directory index of "/var/www/html/" is forbidden, client: 82.65.31.116, server: judit.fr, request: "GET / HTTP/1.1", host: "judit.fr"
+2024/09/20 14:46:50 [error] 29#29: *13 directory index of "/var/www/html/" is forbidden, client: 82.65.31.116, server: judit.fr, request: "GET / HTTP/1.1", host: "judit.fr"
+2024/09/20 14:47:00 [error] 29#29: *15 directory index of "/var/www/html/" is forbidden, client: 82.65.31.116, server: judit.fr, request: "GET / HTTP/1.1", host: "judit.fr"
+2024/09/20 14:47:18 [error] 29#29: *16 directory index of "/var/www/html/" is forbidden, client: 178.254.29.124, server: judit.fr, request: "GET / HTTP/1.1", host: "judit.fr"
+2024/09/20 14:54:16 [notice] 1#1: signal 3 (SIGQUIT) received, shutting down
+2024/09/20 14:54:16 [notice] 28#28: gracefully shutting down
+2024/09/20 14:54:16 [notice] 29#29: gracefully shutting down
+2024/09/20 14:54:16 [notice] 29#29: exiting
+2024/09/20 14:54:16 [notice] 29#29: exit
+2024/09/20 14:54:16 [notice] 1#1: signal 17 (SIGCHLD) received from 29
+2024/09/20 14:54:16 [notice] 1#1: worker process 29 exited with code 0
+2024/09/20 14:54:16 [notice] 1#1: signal 29 (SIGIO) received
+2024/09/20 14:54:27 [notice] 1#1: using the "epoll" event method
+2024/09/20 14:54:27 [notice] 1#1: nginx/1.27.1
+2024/09/20 14:54:27 [notice] 1#1: built by gcc 12.2.0 (Debian 12.2.0-14) 
+2024/09/20 14:54:27 [notice] 1#1: OS: Linux 5.15.0-119-generic
+2024/09/20 14:54:27 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2024/09/20 14:54:27 [notice] 1#1: start worker processes
+2024/09/20 14:54:27 [notice] 1#1: start worker process 27
+2024/09/20 14:54:27 [notice] 1#1: start worker process 28
+2024/09/20 15:04:20 [notice] 1#1: signal 3 (SIGQUIT) received, shutting down
+2024/09/20 15:04:20 [notice] 27#27: gracefully shutting down
+2024/09/20 15:04:20 [notice] 27#27: exiting
+2024/09/20 15:04:20 [notice] 27#27: exit
+2024/09/20 15:04:20 [notice] 28#28: gracefully shutting down
+2024/09/20 15:04:20 [notice] 28#28: exiting
+2024/09/20 15:04:20 [notice] 28#28: exit
+2024/09/20 15:04:20 [notice] 1#1: signal 17 (SIGCHLD) received from 27
+2024/09/20 15:04:20 [notice] 1#1: worker process 27 exited with code 0
+2024/09/20 15:04:20 [notice] 1#1: worker process 28 exited with code 0
+2024/09/20 15:04:20 [notice] 1#1: exit
+2024/09/20 15:04:20 [emerg] 1#1: "fastcgi_pass" directive is duplicate in /etc/nginx/conf.d/default.conf:14
+2024/09/20 15:15:23 [warn] 1#1: conflicting server name "judit.fr" on 0.0.0.0:80, ignored
+2024/09/20 15:15:23 [warn] 1#1: conflicting server name "www.judit.fr" on 0.0.0.0:80, ignored
+2024/09/20 15:15:23 [emerg] 1#1: open() "/root/docker/logs/nginx/symfony_error.log" failed (2: No such file or directory)
+2024/09/20 15:19:05 [warn] 1#1: conflicting server name "judit.fr" on 0.0.0.0:80, ignored
+2024/09/20 15:19:05 [warn] 1#1: conflicting server name "www.judit.fr" on 0.0.0.0:80, ignored
+2024/09/20 15:19:05 [emerg] 1#1: open() "/root/docker/logs/nginx/symfony_error.log" failed (2: No such file or directory)
+2024/09/20 15:28:01 [warn] 1#1: conflicting server name "judit.fr" on 0.0.0.0:80, ignored
+2024/09/20 15:28:01 [warn] 1#1: conflicting server name "www.judit.fr" on 0.0.0.0:80, ignored
+2024/09/20 15:28:01 [notice] 1#1: using the "epoll" event method
+2024/09/20 15:28:01 [notice] 1#1: nginx/1.27.1
+2024/09/20 15:28:01 [notice] 1#1: built by gcc 12.2.0 (Debian 12.2.0-14) 
+2024/09/20 15:28:01 [notice] 1#1: OS: Linux 5.15.0-119-generic
+2024/09/20 15:28:01 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2024/09/20 15:28:01 [notice] 1#1: start worker processes
+2024/09/20 15:28:01 [notice] 1#1: start worker process 28
+2024/09/20 15:28:01 [notice] 1#1: start worker process 29
+2024/09/20 15:34:44 [notice] 1#1: signal 3 (SIGQUIT) received, shutting down
+2024/09/20 15:34:44 [notice] 28#28: gracefully shutting down
+2024/09/20 15:34:44 [notice] 29#29: gracefully shutting down
+2024/09/20 15:34:44 [notice] 28#28: exiting
+2024/09/20 15:34:44 [notice] 28#28: exit
+2024/09/20 15:34:44 [notice] 1#1: signal 17 (SIGCHLD) received from 28
+2024/09/20 15:34:44 [notice] 1#1: worker process 28 exited with code 0
+2024/09/20 15:34:44 [notice] 1#1: signal 29 (SIGIO) received
+2024/09/20 15:34:57 [warn] 1#1: conflicting server name "judit.fr" on 0.0.0.0:80, ignored
+2024/09/20 15:34:57 [warn] 1#1: conflicting server name "www.judit.fr" on 0.0.0.0:80, ignored
+2024/09/20 15:34:57 [notice] 1#1: using the "epoll" event method
+2024/09/20 15:34:57 [notice] 1#1: nginx/1.27.1
+2024/09/20 15:34:57 [notice] 1#1: built by gcc 12.2.0 (Debian 12.2.0-14) 
+2024/09/20 15:34:57 [notice] 1#1: OS: Linux 5.15.0-119-generic
+2024/09/20 15:34:57 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2024/09/20 15:34:57 [notice] 1#1: start worker processes
+2024/09/20 15:34:57 [notice] 1#1: start worker process 28
+2024/09/20 15:34:57 [notice] 1#1: start worker process 29
+2024/09/20 15:50:40 [emerg] 38#38: the duplicate "document_root" variable in /etc/nginx/conf.d/default.conf:3
+2024/09/20 15:51:41 [emerg] 43#43: the duplicate "document_root" variable in /etc/nginx/conf.d/default.conf:3
+2024/09/20 15:54:46 [emerg] 55#55: the duplicate "document_root" variable in /etc/nginx/conf.d/default.conf:3
+2024/09/20 15:55:37 [emerg] 61#61: the duplicate "document_root" variable in /etc/nginx/conf.d/default.conf:3
+2024/09/20 15:56:29 [emerg] 67#67: the duplicate "document_root" variable in /etc/nginx/conf.d/default.conf:3
+2024/09/20 16:02:25 [emerg] 73#73: "fastcgi_pass" directive is duplicate in /etc/nginx/snippets/fastcgi-php.conf:3
+2024/09/20 16:05:04 [warn] 79#79: conflicting server name "judit.fr" on 0.0.0.0:80, ignored
+2024/09/20 16:05:04 [warn] 79#79: conflicting server name "www.judit.fr" on 0.0.0.0:80, ignored
+2024/09/20 16:05:04 [notice] 79#79: signal process started
+2024/09/20 16:05:04 [notice] 1#1: signal 1 (SIGHUP) received from 79, reconfiguring
+2024/09/20 16:05:04 [notice] 1#1: reconfiguring
+2024/09/20 16:05:04 [warn] 1#1: conflicting server name "judit.fr" on 0.0.0.0:80, ignored
+2024/09/20 16:05:04 [warn] 1#1: conflicting server name "www.judit.fr" on 0.0.0.0:80, ignored
+2024/09/20 16:05:04 [notice] 1#1: using the "epoll" event method
+2024/09/20 16:05:04 [notice] 1#1: start worker processes
+2024/09/20 16:05:04 [notice] 1#1: start worker process 86
+2024/09/20 16:05:04 [notice] 1#1: start worker process 87
+2024/09/20 16:05:04 [notice] 29#29: gracefully shutting down
+2024/09/20 16:05:04 [notice] 28#28: gracefully shutting down
+2024/09/20 16:05:04 [notice] 28#28: exiting
+2024/09/20 16:05:04 [notice] 28#28: exit
+2024/09/20 16:05:04 [notice] 29#29: exiting
+2024/09/20 16:05:04 [notice] 29#29: exit
+2024/09/20 16:05:04 [notice] 1#1: signal 17 (SIGCHLD) received from 28
+2024/09/20 16:05:04 [notice] 1#1: worker process 28 exited with code 0
+2024/09/20 16:05:04 [notice] 1#1: worker process 29 exited with code 0
+2024/09/20 16:05:04 [notice] 1#1: signal 29 (SIGIO) received
+2024/09/20 16:07:49 [notice] 88#88: signal process started
+2024/09/20 16:07:49 [notice] 1#1: signal 1 (SIGHUP) received from 88, reconfiguring
+2024/09/20 16:07:49 [notice] 1#1: reconfiguring
+2024/09/20 16:07:49 [notice] 1#1: using the "epoll" event method
+2024/09/20 16:07:49 [notice] 1#1: start worker processes
+2024/09/20 16:07:49 [notice] 1#1: start worker process 94
+2024/09/20 16:07:49 [notice] 1#1: start worker process 95
+2024/09/20 16:07:49 [notice] 87#87: gracefully shutting down
+2024/09/20 16:07:49 [notice] 86#86: gracefully shutting down
+2024/09/20 16:07:49 [notice] 87#87: exiting
+2024/09/20 16:07:49 [notice] 86#86: exiting
+2024/09/20 16:07:49 [notice] 86#86: exit
+2024/09/20 16:07:49 [notice] 87#87: exit
+2024/09/20 16:07:50 [notice] 1#1: signal 17 (SIGCHLD) received from 86
+2024/09/20 16:07:50 [notice] 1#1: worker process 86 exited with code 0
+2024/09/20 16:07:50 [notice] 1#1: signal 29 (SIGIO) received
+2024/09/20 16:07:50 [notice] 1#1: signal 17 (SIGCHLD) received from 87
+2024/09/20 16:07:50 [notice] 1#1: worker process 87 exited with code 0
+2024/09/20 16:07:50 [notice] 1#1: signal 29 (SIGIO) received

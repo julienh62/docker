@@ -1,0 +1,45 @@
+version: '3.8'
+
+services:
+  nginx:
+    image: nginx:latest
+    container_name: nginx
+    ports:
+      - "80:80"
+      - "443:443"
+    volumes:
+      - ./nginx:/etc/nginx/conf.d
+      - ./nginx/snippets:/etc/nginx/snippets
+      - ./www:/var/www/html
+      - ./logs/nginx:/var/log/nginx
+    depends_on:
+      - php
+    networks:
+      - app-network
+
+  php:
+    build: .  # Utiliser le Dockerfile personnalisé
+    container_name: php
+    volumes:
+      - ./www:/var/www/html
+      - ./logs/php:/var/log/php
+    networks:
+      - app-network
+  
+
+  mariadb:
+    image: mariadb:10.6
+    container_name: mariadb
+    environment:
+      MYSQL_ROOT_PASSWORD: R8qEb8YK
+      MYSQL_DATABASE: eoliasymfonycalendar
+      MYSQL_USER: jhennebo
+      MYSQL_PASSWORD: R8qEb8YK
+    volumes:
+      - ./db_data:/var/lib/mysql
+    networks:
+      - app-network
+
+networks:
+  app-network:
+    driver: bridge
