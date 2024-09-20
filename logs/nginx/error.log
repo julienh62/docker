@@ -275,3 +275,22 @@
 2024/09/20 16:07:50 [notice] 1#1: signal 17 (SIGCHLD) received from 87
 2024/09/20 16:07:50 [notice] 1#1: worker process 87 exited with code 0
 2024/09/20 16:07:50 [notice] 1#1: signal 29 (SIGIO) received
+2024/09/20 19:51:47 [notice] 1#1: signal 3 (SIGQUIT) received, shutting down
+2024/09/20 19:51:47 [notice] 94#94: gracefully shutting down
+2024/09/20 19:51:47 [notice] 94#94: exiting
+2024/09/20 19:51:47 [notice] 94#94: exit
+2024/09/20 19:51:47 [notice] 95#95: gracefully shutting down
+2024/09/20 19:51:47 [notice] 95#95: exiting
+2024/09/20 19:51:47 [notice] 95#95: exit
+2024/09/20 19:51:47 [notice] 1#1: signal 17 (SIGCHLD) received from 95
+2024/09/20 19:51:47 [notice] 1#1: worker process 95 exited with code 0
+2024/09/20 19:51:47 [notice] 1#1: worker process 94 exited with code 0
+2024/09/20 19:51:47 [notice] 1#1: exit
+2024/09/20 19:52:05 [notice] 1#1: using the "epoll" event method
+2024/09/20 19:52:05 [notice] 1#1: nginx/1.27.1
+2024/09/20 19:52:05 [notice] 1#1: built by gcc 12.2.0 (Debian 12.2.0-14) 
+2024/09/20 19:52:05 [notice] 1#1: OS: Linux 5.15.0-119-generic
+2024/09/20 19:52:05 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2024/09/20 19:52:05 [notice] 1#1: start worker processes
+2024/09/20 19:52:05 [notice] 1#1: start worker process 28
+2024/09/20 19:52:05 [notice] 1#1: start worker process 29
