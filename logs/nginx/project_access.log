@@ -629,3 +629,7 @@
 185.191.126.213 - - [20/Sep/2024:20:10:10 +0000] "GET / HTTP/1.1" 200 60971 "-" "-"
 82.65.31.116 - - [20/Sep/2024:20:11:42 +0000] "GET / HTTP/1.1" 200 4501 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:130.0) Gecko/20100101 Firefox/130.0"
 82.65.31.116 - - [20/Sep/2024:20:11:42 +0000] "GET /assets/uploads/votre-logo.png HTTP/1.1" 404 3341 "http://judit.fr/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:130.0) Gecko/20100101 Firefox/130.0"
+167.94.145.99 - - [20/Sep/2024:20:21:52 +0000] "GET / HTTP/1.1" 200 4501 "-" "-"
+167.94.145.99 - - [20/Sep/2024:20:21:55 +0000] "GET / HTTP/1.1" 200 4501 "-" "Mozilla/5.0 (compatible; CensysInspect/1.1; +https://about.censys.io/)"
+167.94.145.99 - - [20/Sep/2024:20:21:56 +0000] "GET /favicon.ico HTTP/1.1" 404 3341 "-" "Mozilla/5.0 (compatible; CensysInspect/1.1; +https://about.censys.io/)"
+167.94.145.99 - - [20/Sep/2024:20:21:56 +0000] "PRI * HTTP/2.0" 400 157 "-" "-"

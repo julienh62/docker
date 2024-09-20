@@ -1,3 +1,6 @@
 www/symfony/
 db_data/
-
+logs/nginx/access.log
+logs/nginx/error.log
+logs/nginx/projet_access.log
+logs/nginx/projet_error.log
